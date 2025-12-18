@@ -21,7 +21,6 @@ class HomeScreen extends StatelessWidget {
                     'assets/animations/empty_list.json'
                 ),
             ),
-
             Center(
               child: Text(
                 'There is No Contacts Added Here',
