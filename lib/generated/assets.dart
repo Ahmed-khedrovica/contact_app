@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String imagesAndroid12 = 'assets/images/android12+.png';
   static const String imagesSplashScreen = 'assets/images/splash_screen.png';
 
 }
