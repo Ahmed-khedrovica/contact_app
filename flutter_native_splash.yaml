@@ -1,0 +1,11 @@
+flutter_native_splash:
+  # Splash for Blow android 11 and iOS
+  color: "#29384D"
+  image: assets/images/splash_screen.png
+
+
+
+  fullscreen: true
+
+
+
