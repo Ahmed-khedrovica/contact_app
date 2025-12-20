@@ -7,4 +7,16 @@ abstract final class AppTextStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.offWhite,
   );
+
+  static final font20DarkBlueRegular = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColors.mainDarkBlue,
+  );
+
+  static final font16LighterBlueRegular = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColors.lighterBlue,
+  );
 }
