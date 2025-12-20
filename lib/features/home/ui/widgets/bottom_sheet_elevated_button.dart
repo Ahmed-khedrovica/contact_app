@@ -8,7 +8,7 @@ class BottomSheetElevatedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  SizedBox(
+    return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
@@ -22,10 +22,7 @@ class BottomSheetElevatedButton extends StatelessWidget {
         },
         child: Padding(
           padding: const EdgeInsets.all(12),
-          child: Text(
-            'Enter user',
-            style: AppTextStyles.font20DarkBlueRegular,
-          ),
+          child: Text('Enter user', style: AppTextStyles.font20DarkBlueRegular),
         ),
       ),
     );

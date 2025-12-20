@@ -1,6 +1,7 @@
 import 'package:contact/core/helpers/spacing.dart';
 import 'package:contact/core/theming/app_colors.dart';
 import 'package:contact/core/theming/app_text_styles.dart';
+import 'package:contact/features/home/ui/widgets/add_user_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -18,10 +19,8 @@ class HomeScreen extends StatelessWidget {
               padding: const EdgeInsets.only(left: 26),
               child: Image.asset('assets/images/logo.png', scale: 6),
             ),
-            Center(
-                child: Lottie.asset(
-                    'assets/animations/empty_list.json'
-                ),
+            Center(child:
+            Lottie.asset('assets/animations/empty_list.json',),
             ),
             verticalSpace(40),
             Center(
@@ -36,13 +35,25 @@ class HomeScreen extends StatelessWidget {
               child: Align(
                 alignment: Alignment.bottomRight,
                 child: FloatingActionButton(
-                  onPressed: (){
-
+                  backgroundColor: AppColors.offWhite,
+                  onPressed: () {
+                    showModalBottomSheet(
+                      context: context,
+                      isScrollControlled: true,
+                      shape: const RoundedRectangleBorder(
+                        borderRadius: BorderRadius.vertical(
+                          top: Radius.circular(24),
+                        ),
+                      ),
+                      builder: (context) {
+                        return const AddUserBottomSheet();
+                      },
+                    );
                   },
-                  child: Icon(Icons.add, color: AppColors.mainDarkBlue,),
+                  child: Icon(Icons.add, color: AppColors.mainDarkBlue),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
