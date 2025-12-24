@@ -8,6 +8,18 @@ abstract final class AppTextStyles {
     color: AppColors.offWhite,
   );
 
+  static final font14DarkBlueRegular = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.normal,
+    color: AppColors.mainDarkBlue,
+  );
+
+  static final font14OffWhiteMedium = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: AppColors.offWhite,
+  );
+
   static final font16OffWhiteMedium = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w500,

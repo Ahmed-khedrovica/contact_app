@@ -2,8 +2,23 @@
 class Assets {
   Assets._();
 
+  static const String animationsEmptyList = 'assets/animations/empty_list.json';
+  static const String animationsImagePicker = 'assets/animations/image_picker.json';
+  static const String generatedAssets = 'lib/generated/assets.dart';
+  static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
   static const String imagesAndroid12 = 'assets/images/android12+.png';
   static const String imagesLogo = 'assets/images/logo.png';
   static const String imagesSplashScreen = 'assets/images/splash_screen.png';
+  static const String libMain = 'lib/main.dart';
+  static const String modalsUserModel = 'lib/features/home/data/modals/user_model.dart';
+  static const String themingAppColors = 'lib/core/theming/app_colors.dart';
+  static const String themingAppTextStyles = 'lib/core/theming/app_text_styles.dart';
+  static const String uiHomeScreen = 'lib/features/home/ui/home_screen.dart';
+  static const String widgetsAddUserBottomSheet = 'lib/features/home/ui/widgets/add_user_bottom_sheet.dart';
+  static const String widgetsBottomSheetElevatedButton = 'lib/features/home/ui/widgets/bottom_sheet_elevated_button.dart';
+  static const String widgetsBottomSheetUserInformation = 'lib/features/home/ui/widgets/bottom_sheet_user_information.dart';
+  static const String widgetsCustomTextField = 'lib/features/home/ui/widgets/custom_text_field.dart';
+  static const String widgetsUserCard = 'lib/features/home/ui/widgets/user_card.dart';
+  static const String widgetsUserImagePicker = 'lib/features/home/ui/widgets/user_image_picker.dart';
 
 }
